@@ -1,0 +1,55 @@
+diff --git a/fa/index.d.ts b/fa/index.d.ts
+index 72e075981595d97a4b9ddffd09bb13044f8ac379..38fdca8e58e415fd05cc49469b4872791deb0392 100644
+--- a/fa/index.d.ts
++++ b/fa/index.d.ts
+@@ -1,5 +1,5 @@
+ // THIS FILE IS AUTO GENERATED
+-import { IconTree, IconType } from '../lib'
++import { IconTree, IconType } from '../lib/cjs/index'
+ export declare const Fa500Px: IconType;
+ export declare const FaAccessibleIcon: IconType;
+ export declare const FaAccusoft: IconType;
+diff --git a/go/index.d.ts b/go/index.d.ts
+index c3046f525180abed17ffd02eca6c6526efb9918a..def5520a4a86fecdcb64fb596b26e94108954af6 100644
+--- a/go/index.d.ts
++++ b/go/index.d.ts
+@@ -1,5 +1,5 @@
+ // THIS FILE IS AUTO GENERATED
+-import { IconTree, IconType } from '../lib'
++import { IconTree, IconType } from '../lib/cjs/index'
+ export declare const GoAlert: IconType;
+ export declare const GoAlertFill: IconType;
+ export declare const GoArchive: IconType;
+diff --git a/io/index.d.ts b/io/index.d.ts
+index f05412338ebd51a25b0ab41e2234bc2f34f0236f..9b1ee378fc78d03091a22a39b83375ee88141911 100644
+--- a/io/index.d.ts
++++ b/io/index.d.ts
+@@ -1,5 +1,5 @@
+ // THIS FILE IS AUTO GENERATED
+-import { IconTree, IconType } from '../lib'
++import { IconTree, IconType } from '../lib/cjs/index'
+ export declare const IoIosAddCircleOutline: IconType;
+ export declare const IoIosAddCircle: IconType;
+ export declare const IoIosAdd: IconType;
+diff --git a/md/index.d.ts b/md/index.d.ts
+index df36e42a3129ffba5b80105e665c8c14e5c2fecd..df08641c828220470e36210af7ab735bf72eb7bf 100644
+--- a/md/index.d.ts
++++ b/md/index.d.ts
+@@ -1,5 +1,5 @@
+ // THIS FILE IS AUTO GENERATED
+-import { IconTree, IconType } from '../lib'
++import { IconTree, IconType } from '../lib/cjs/index'
+ export declare const Md123: IconType;
+ export declare const Md3DRotation: IconType;
+ export declare const MdAbc: IconType;
+diff --git a/ti/index.d.ts b/ti/index.d.ts
+index 9ea13a8315354ed1e71fc0fae2efca5375c5df9b..5d66e173b4530ab76696898b6aace56fa4e070ef 100644
+--- a/ti/index.d.ts
++++ b/ti/index.d.ts
+@@ -1,5 +1,5 @@
+ // THIS FILE IS AUTO GENERATED
+-import { IconTree, IconType } from '../lib'
++import { IconTree, IconType } from '../lib/cjs/index'
+ export declare const TiAdjustBrightness: IconType;
+ export declare const TiAdjustContrast: IconType;
+ export declare const TiAnchorOutline: IconType;

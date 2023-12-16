@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  react-icons@4.12.0:
+    hash: lhpe5udihdumwk6qmnqytxq2oq
+    path: patches/react-icons@4.12.0.patch
+
 importers:
 
   .:
@@ -103,7 +108,7 @@ importers:
         version: 18.2.0(react@18.2.0)
       react-icons:
         specifier: ^4.12.0
-        version: 4.12.0(react@18.2.0)
+        version: 4.12.0(patch_hash=lhpe5udihdumwk6qmnqytxq2oq)(react@18.2.0)
       react-is:
         specifier: ^18.2.0
         version: 18.2.0
@@ -638,7 +643,7 @@ importers:
         version: 18.2.0(react@18.2.0)
       react-icons:
         specifier: ^4.12.0
-        version: 4.12.0(react@18.2.0)
+        version: 4.12.0(patch_hash=lhpe5udihdumwk6qmnqytxq2oq)(react@18.2.0)
       react-is:
         specifier: ^18.2.0
         version: 18.2.0
@@ -1053,7 +1058,7 @@ importers:
         version: 4.17.21
       react-icons:
         specifier: ^4.12.0
-        version: 4.12.0(react@18.2.0)
+        version: 4.12.0(patch_hash=lhpe5udihdumwk6qmnqytxq2oq)(react@18.2.0)
       react-is:
         specifier: ^18.2.0
         version: 18.2.0
@@ -1731,7 +1736,7 @@ importers:
         version: 0.11.8
       react-icons:
         specifier: ^4.12.0
-        version: 4.12.0(react@18.2.0)
+        version: 4.12.0(patch_hash=lhpe5udihdumwk6qmnqytxq2oq)(react@18.2.0)
       simple-diff:
         specifier: ^1.7.2
         version: 1.7.2
@@ -2633,7 +2638,7 @@ importers:
         version: 18.2.0(react@18.2.0)
       react-icons:
         specifier: ^4.12.0
-        version: 4.12.0(react@18.2.0)
+        version: 4.12.0(patch_hash=lhpe5udihdumwk6qmnqytxq2oq)(react@18.2.0)
       react-is:
         specifier: ^18.2.0
         version: 18.2.0
@@ -3030,7 +3035,7 @@ importers:
         version: 4.2.3
       react-icons:
         specifier: ^4.12.0
-        version: 4.12.0(react@18.2.0)
+        version: 4.12.0(patch_hash=lhpe5udihdumwk6qmnqytxq2oq)(react@18.2.0)
       react-select:
         specifier: ^5.8.0
         version: 5.8.0(@types/react@18.2.43)(react-dom@18.2.0)(react@18.2.0)
@@ -18613,13 +18618,14 @@ packages:
       use-sidecar: 1.1.2(@types/react@18.2.43)(react@18.2.0)
     dev: false
 
-  /react-icons@4.12.0(react@18.2.0):
+  /react-icons@4.12.0(patch_hash=lhpe5udihdumwk6qmnqytxq2oq)(react@18.2.0):
     resolution: {integrity: sha512-IBaDuHiShdZqmfc/TwHu6+d6k2ltNCf3AszxNmjJc1KUfXdEeRJOKyNvLmAHaarhzGmTSVygNdyu8/opXv2gaw==}
     peerDependencies:
       react: '*'
     dependencies:
       react: 18.2.0
     dev: false
+    patched: true
 
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
